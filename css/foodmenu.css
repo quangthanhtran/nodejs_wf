@@ -1,0 +1,16 @@
+@media (max-width:739px) {
+    .search__iteam-text{width: 90%;}
+    .search__iteam-btn { width: 33%;}
+    .header__navbar-logo{width: 100%;}
+    .header__navbar-menu{display: none;}
+    .header__navbar-menu-list{display: block;text-align: left;}
+    .header__navbar-logo-img{width: 50%;}
+}
+
+@media (min-width:740px) and (max-width:1023px) {
+    .header__navbar-logo{width: 45%;}
+    .header__navbar-menu{width: 60%;}
+    .search__iteam-btn{width: 12%;}
+    .container__box-text{left: 35%;bottom: 3px;font-size: 1.2rem;}
+    .hide-categories{display:none;}
+}

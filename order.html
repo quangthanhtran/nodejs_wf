@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/wowfood.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/order.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- section header start -->
+    <section class="header">
+        <div class="header__navbar wide" >
+            <div class="header__navbar-logo">
+                <img src="img/wowfood-img/logo.png" alt="" class="header__navbar-logo-img">
+            </div>
+            <label for="header__navbar-mobile-input" class="header__navbar-btn-mobile">
+                <i class="fas fa-bars"></i>
+            </label>
+            <input type="checkbox" name="" class="header__navbar-input" id="header__navbar-mobile-input">
+            <label for="header__navbar-mobile-input" class="header__navbar-overlay"></label>
+            <div class="header__navbar-menu-mobile text-right">
+                <label for="header__navbar-mobile-input" class="header__navbar-close">
+                    <i class="fas fa-times"></i>
+                </label>
+                <ul class="header__navbar-menu-mobile-list">
+                    <li class="header__navbar-menu-mobile-list-iteam">
+                        <a href="wowfood.html" class="header__navbar-menu-mobile-list-iteam-link">Home</a>
+                    </li>
+                    <li class="header__navbar-menu-mobile-list-iteam">
+                        <a href="" class="header__navbar-menu-mobile-list-iteam-link">Categories</a>
+                    </li>
+                    <li class="header__navbar-menu-mobile-list-iteam">
+                        <a href="" class="header__navbar-menu-mobile-list-iteam-link">Foods</a>
+                    </li>
+                    <li class="header__navbar-menu-mobile-list-iteam">
+                        <a href="" class="header__navbar-menu-mobile-list-iteam-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header__navbar-menu text-right">
+                <ul class="header__navbar-menu-list">
+                    <li class="header__navbar-menu-list-iteam">
+                        <a href="wowfood.html" class="header__navbar-menu-list-iteam-link">Home</a>
+                    </li>
+                    <li class="header__navbar-menu-list-iteam">
+                        <a href="" class="header__navbar-menu-list-iteam-link">Categories</a>
+                    </li>
+                    <li class="header__navbar-menu-list-iteam">
+                        <a href="" class="header__navbar-menu-list-iteam-link">Foods</a>
+                    </li>
+                    <li class="header__navbar-menu-list-iteam">
+                        <a href="" class="header__navbar-menu-list-iteam-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- section header end -->
+
+    <!-- section background order start -->
+    <section class="orderfood">
+        <div class="order__background">
+            <div class="order__box1">
+                <div class="order__header-title">
+                    <h2 class="order__header-title-text">
+                        Fill this form to confirm your order.
+                    </h2>
+                </div>
+                <div class="order__container">
+                    <div class="order__container-text-box1">
+                        <h3 class="order__container-text-box1-setting">
+                            Selected Food
+                        </h3>
+                    </div>
+                    <div class="order__container-box">
+                        <div class="order__container-img">
+                            <img src="/img/wowfood-img/menu-pizza.jpg" alt="" class="order__container-img-setting">
+                        </div>    
+                        <div class="order__container-desc">
+                            <p class="order__container-title">Food Title</p>
+                            <p class="order__container-price">$2.3</p>
+                            <p class="order__container-quantity">Quantity</p>
+                            <input type="number" min="1" max="99" class="order__container-select" placeholder="">
+                        </div>    
+                    </div>
+                </div>
+            </div>
+            <div class="order__box2">
+                <div class="order__container">
+                    <div class="order__container-text-box2">
+                        <h3 class="order__container-text-box2-setting">
+                            Delivery Details
+                        </h3>
+                    </div>
+                    <div class="order__container-box">
+                        <div class="order__container-name">
+                            <h3 class="order__container-text">Full Name</h3>
+                            <input type="text" class="order__container-input" placeholder="E.g Trần Thanh Quang">
+                        </div>
+                        <div class="order__container-number">
+                            <h3 class="order__container-text">Phone Number</h3>
+                            <input type="text" class="order__container-input" placeholder="E.g 098.xxx.xxx">
+                        </div>
+                        <div class="order__container-email">
+                            <h3 class="order__container-text">Email</h3>
+                            <input type="text" class="order__container-input" placeholder="E.g xx@gmail.com">
+                        </div>
+                        <div class="order__container-address">
+                            <h3 class="order__container-text">Address</h3>
+                            <input type="text" class="order__container-address-input" placeholder="E.g 175 Tây Sơn - Đống Đa - Hà nội">
+                        </div>
+                        <div class="order__container-confirm">
+                            <a href="" class="order__container-confirm-link">Confirm Order</a>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </section>
+
+    <section class="order__footer">
+        <div class="order__footer-icon">
+            <i class="fab fa-facebook order__footer__icon-setting"></i>
+            <i class="fab fa-instagram order__footer__icon-setting"></i>
+            <i class="fab fa-twitter order__footer__icon-setting"></i>
+        </div>
+        <div class="order__footer-text">
+            <p class="order__footer-text-setting">All rights reserved. Designed By <a href="" class="order__footer-text-link">Quang Thanh Tran</a></p>
+        </div>
+    </section>
+</body>
+</html>

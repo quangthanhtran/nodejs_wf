@@ -1,0 +1,8 @@
+.details__product{margin-top: 30px;}
+.details__product-img{width: 100%;}
+.details__product-img-setting{width: 75%;border-radius: 8px ;}
+.details__product-desc{}
+.details__product-title{padding: 16px 0; font-size: 2rem;font-weight: 700;}
+.details__product-price{padding: 16px 0;font-size: 1.5rem;}
+.details__product-text{padding: 16px 0;}
+.details__product-link{padding: 16px 0;background-color: #f7a;padding: 4px;text-decoration: none;color: white;border-radius: 4px;}
